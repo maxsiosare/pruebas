@@ -1,18 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <title>Ejemplo</title>
 </head>
 <body>
-    <div id="container"></div>
+  <h1>Marketplace</h1>
+  <h2>Primary Market</h2>
+  <button onclick="mintwl()" class="button is-primary">mint!</button><br>
+  <p id="web3_message"></p>
+  <h3>My NFTs</h3>
+  <div id="my_nfts"></div>
+  <h2>Secondary Market</h2>
+  <h3>My listings</h3>
+  <div id="my_listings"></div>
+  <h3>All listings</h3>
+  <div id="all_listings"></div>
 
-    <script src="./node_modules/phaser/dist/phaser.js"
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.3.5/web3.min.js"></script>
+  <script type="text/javascript" src="blockchain_stuff.js"></script>
 
-    <script src="./src/sceneA.js"></script>
-    <script src="./src/sceneA.js"
-    <script src="./src/init.js"></script>
+</section>
+    
+<section class="final-sms">
+ 
+    <center><p>Mint is Available- <select id="mint_amount">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    
+  </select>
+<span id="price2"></span></p>
+  <input type="image" name="mint!" src="./imgenes/patronmuñeco2.png" onclick="mintwl()"style='width:150px; height: 70px'>
+     
+</section>
+    
+<section class="final-sms">
+ 
+    <center><p>Mint is Available- <select id="mint_amount">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    
+  </select>
+<span id="price2"></span></p>
+  <input type="image" name="mint!" src="./imgenes/patronmuñeco2.png" onclick="mint()"style='width:150px; height: 70px'>
+
+</section>
+    
+<section class="final-sms">
+ 
+    <center><p>Mint is Available- <select id="mint_amount">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    
+  </select>
+<span id="price2"></span></p>
+  <input type="image" name="mint!" src="./imgenes/patronmuñeco2.png" onclick="reserveGiveaway()"style='width:150px; height: 70px'>
+
 </body>
 </html>
